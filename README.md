@@ -19,7 +19,7 @@ This project focuses on real-time communication, simplicity, and a smooth user e
 
 ## Tech Stack
 
-## Frontend
+### Frontend
 
 - Next.js (App Router)
 
@@ -27,7 +27,7 @@ This project focuses on real-time communication, simplicity, and a smooth user e
 
 - CSS (custom styling)
 
-## Backend
+### Backend
 
 - Node.js
 
@@ -36,7 +36,7 @@ This project focuses on real-time communication, simplicity, and a smooth user e
 - Socket.IO
 
 ## Project Structure
-realtime-chat-app/
+real-time-chat/
 ├── client/        # Next.js frontend
 ├── server/        # Node.js + Socket.IO backend
 ├── .gitignore
@@ -55,11 +55,11 @@ realtime-chat-app/
 5. The sender sees their own messages as well as others.
 
 ## Run the Project Locally
-# Clone the repository
+### Clone the repository
 git clone https://github.com/PrashantS14/real-time-chat-app
 cd real-time-chat
 
-# Start the Server
+### Start the Server
 cd server
 npm install
 node index.js
@@ -69,7 +69,7 @@ Server runs on:
 
 http://localhost:4000
 
-# Start the Client
+### Start the Client
 cd client
 npm install
 npm run dev
