@@ -14,7 +14,6 @@ let messages = [];
 io.on("connection", (socket) => {
   console.log("User connected");
 
-  // Send previous messages
   socket.emit("chat-history", messages);
 
   socket.on("message", (msg) => {
