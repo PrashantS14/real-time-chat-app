@@ -19,7 +19,7 @@ This project focuses on real-time communication, simplicity, and a smooth user e
 
 ## Tech Stack
 
-# Frontend
+## Frontend
 
 - Next.js (App Router)
 
@@ -27,7 +27,7 @@ This project focuses on real-time communication, simplicity, and a smooth user e
 
 - CSS (custom styling)
 
-# Backend
+## Backend
 
 - Node.js
 
