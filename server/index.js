@@ -18,7 +18,7 @@ io.on("connection", (socket) => {
 
   socket.on("message", (msg) => {
     messages.push(msg);
-    io.emit("message", msg); // emit ONLY ONCE
+    io.emit("message", msg); 
   });
 
   socket.on("disconnect", () => {
